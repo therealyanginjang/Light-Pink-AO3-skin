@@ -208,8 +208,13 @@ ul.notes {
 span.claimed,
 span.unread,
 .LV_invalid {
-  background: #8a2b2e;
+  background: #945c62;
   color: #FFF;
+}
+
+span.claimed,
+span.unread {
+  border: 1px solid #6e3d42;
 }
 
 fieldset {
@@ -285,6 +290,10 @@ li.blurb {
   border-radius: 0.75em;
   background: #ded3ca !important;
   border: 1px solid #d1c3b8;
+}
+
+li.blurb {
+  padding-bottom: 1em;
 }
 
 #footer,
@@ -370,10 +379,6 @@ fieldset fieldset.listbox,
   border-color: #cf91b9;
 }
 
-li.relationships a {
-  background: #cf91b9 !important;
-}
-
 #dashboard .current,
 #dashboard span {
   color: #FFF !important;
@@ -406,7 +411,6 @@ col.name,
 .secondary,
 .javascript .work.navigation .download .secondary,
 dl.meta,
-div.comment,
 li.comment,
 .comment div.icon,
 .splash .news li,
@@ -415,6 +419,10 @@ li.comment,
 .picture .header,
 .home .header h2 {
   border-color: #cf91b9;
+}
+
+div.comment {
+  border: none;
 }
 
 .toggled form,
@@ -467,11 +475,6 @@ form dt,
   border: none;
 }
 
-.bookmark .user {
-  border: 1px solid #cf91b9;
-  background: #f0e8e1 !important;
-}
-
 .actions a,
 .actions a:link,
 .action,
@@ -520,11 +523,6 @@ label.action:hover,
   background-image: none;
   box-shadow: none;
   outline: 1px solid #945c80 !important;
-}
-
-span.claimed,
-span.unread {
-  border: 1px solid #572a2a;
 }
 
 p.kudos {
