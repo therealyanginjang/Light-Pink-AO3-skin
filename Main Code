@@ -1371,9 +1371,21 @@ li.warnings a.tag[href*="Death" i] {
   color: #284869;
 }
 
-.tags li.relationships a.tag {
-  background-color: transparent;
-  font-weight: bolder;
+tags li.relationships a.tag {
+  background-color: transparent;
+  font-weight: bolder;
+}
+
+.tags li.relationships a.tag[href*="*s*" i]:hover {
+  background: #ba8a9b;
+  color: #000000;
+  outline: 1px solid #ba8a9b;
+}
+
+.tags li.relationships a.tag[href*="*a*" i]:hover {
+  background: #a3ab9f;
+  color: #000000;
+  outline: 1px solid #a3ab9f;
 }
 
 img[src$="/images/lockblue.png"] {
